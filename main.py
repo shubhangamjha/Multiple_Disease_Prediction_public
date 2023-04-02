@@ -6,11 +6,11 @@ from streamlit_option_menu import option_menu
 #loading saved models
 
 
-diabeties_model = pickle.load(open('C:\\Users\\Shubhangam\\Desktop\\Programming\\practicum\\Sav files\\diabetes_model.sav', 'rb'))
+diabeties_model = pickle.load(open('Sav files/diabetes_model.sav', 'rb'))
 
-heart_model = pickle.load(open('C:\\Users\\Shubhangam\\Desktop\\Programming\\practicum\\Sav files\\heart_disease_model.sav', 'rb'))
+heart_model = pickle.load(open('Sav files/heart_disease_model.sav', 'rb'))
 
-parkinson_model = pickle.load(open('C:\\Users\\Shubhangam\\Desktop\\Programming\\practicum\\Sav files\\parkinsons_model.sav', 'rb'))
+parkinson_model = pickle.load(open('Sav files/parkinsons_model.sav', 'rb'))
 
 
 
