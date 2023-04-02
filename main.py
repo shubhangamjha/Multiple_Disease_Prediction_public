@@ -80,7 +80,7 @@ if (selected == 'Heart Disease Prediction'):
     # page title
     slt.title('Heart Disease Prediction using ML')
 
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3 = slt.columns(3)
 
     with col1:
         age = slt.text_input('Age')
@@ -127,7 +127,7 @@ if (selected == 'Heart Disease Prediction'):
     # creating a button for Prediction
 
     if slt.button('Heart Disease Test Result'):
-        heart_prediction = heart_disease_model.predict(
+        heart_prediction = heart_model.predict(
             [[age, sex, cp, trestbps, chol, fbs, restecg, thalach, exang, oldpeak, slope, ca, thal]])
 
         if (heart_prediction[0] == 1):
@@ -143,7 +143,7 @@ if (selected == "Parkinsons Prediction"):
     # page title
     slt.title("Parkinson's Disease Prediction using ML")
 
-    col1, col2, col3, col4, col5 = st.columns(5)
+    col1, col2, col3, col4, col5 = slt.columns(5)
 
     with col1:
         fo = slt.text_input('MDVP:Fo(Hz)')
