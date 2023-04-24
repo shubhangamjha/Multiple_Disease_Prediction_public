@@ -17,7 +17,7 @@ parkinson_model = pickle.load(open('Sav files/parkinsons_model.sav', 'rb'))
 #slidebar navigation
 
 with slt.sidebar:
-    selected = option_menu('Multiple Disease Prediction System',
+    selected = option_menu('Disease Prediction System',
 
                            ['Diabetes Prediction',
                             'Heart Disease Prediction',
@@ -30,6 +30,7 @@ if (selected == 'Diabetes Prediction'):
 
     # page title
     slt.title('Diabetes Prediction using ML')
+    slt
 
     # getting the input data from the user
     col1, col2, col3 = slt.columns(3)
