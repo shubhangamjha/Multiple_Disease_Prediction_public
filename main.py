@@ -229,3 +229,12 @@ if (selected == "Parkinsons Prediction"):
     slt.success(parkinsons_diagnosis)
 
 
+hide_menu = """
+<style>
+#MainMenu {
+    visibility:hidden;
+}
+
+slt.markdown(hide_menu, unsafe_allow_html = True)
+
+"""
