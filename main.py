@@ -236,7 +236,7 @@ hide_menu = """
 }
 
 footer{
-    visibility:visible;
+    visibility:hidden;
 }
 
 footer:after{
