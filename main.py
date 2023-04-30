@@ -240,12 +240,10 @@ footer{
 }
 
 footer:after{
-    content: 'For any queries e-mail us at terminalstacks@gmail.com
-                or WhatsApp us at +91 7428302135';
-                
+    content: 'For any queries e-mail us at terminalstacks@gmail.com or WhatsApp us at +91 7428302135';
     diplay:block;
     position:relative;
-    color:blue;
+    color:tomato;
 
 }
 
