@@ -235,7 +235,19 @@ hide_menu = """
     visibility:hidden;
 }
 
+footer{
+    visibility:visible;
+}
 
+footer:after{
+    content: 'For any queries e-mail us at terminalstacks@gmail.com
+                or WhatsApp us at +91 7428302135';
+                
+    diplay:block;
+    position:relative;
+    color:blue;
+
+}
 
 """
 slt.markdown(hide_menu, unsafe_allow_html = True)
