@@ -235,6 +235,7 @@ hide_menu = """
     visibility:hidden;
 }
 
-slt.markdown(hide_menu, unsafe_allow_html = True)
+
 
 """
+slt.markdown(hide_menu, unsafe_allow_html = True)
